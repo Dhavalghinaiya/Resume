@@ -1,0 +1,246 @@
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-7.5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Dhaval Ghinaiya} \\ \vspace{1pt}
+    \href{https://github.com/Dhavalghinaiya}{\raisebox{-0.2\height}\faGithub\  \underline{https://github.com/Dhavalghinaiya}} ~  ~ \small \raisebox{-0.1\height}\faPhone {}\ 602-587-9012 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{dghinaiy@asu.edu}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/dhaval-ghinaiya}}  ~
+    \vspace{-10pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Arizona State University}{Aug 2024 -- May 2026}
+      {Master of Science in Information Technology, GPA: 3.89/4.0}{Tempe, AZ}
+            \resumeItem{Coursework: Advanced System Security, Database Management Systems (DBMS), Big Data Analytics, Data Visualization}
+  \resumeSubHeadingListEnd
+\vspace{-20pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {P P Savani University}{Jul 2020 -- May 2024}
+      {Bachelor of Technology in Computer Engineering}{Surat, Gujarat}
+      \resumeItem{Coursework:DBMS, Computer Network, Cloud Computing, Programming with python, Advance Java, Artificial Intelligence }
+  \resumeSubHeadingListEnd
+\vspace{-22pt}
+%-----------PROGRAMMING SKILLS-----------
+\section{SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming}{: Python, Java, JavaScript, PHP, SQL, HTML/CSS, Shell Scripting} \\
+     \textbf{Cloud \& DevOps}{: AWS (Lambda, EC2, S3, CloudFront, API Gateway), Docker, Kubernetes, CI/CD (Jenkins, GitHub)} \\
+     \textbf{Systems}{:  Linux/Unix Administration, Apache, MySQL, LAMP Stack, macOS/Windows Troubleshooting} \\
+      \textbf{Certifications}{:  CCNA, CCNP, AWS Cloud Practitioner, Azure Developer Associate} \\
+     }}
+        
+ \end{itemize}
+ \vspace{-22pt}
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {AppWorld Infotech}{Dec 2023 -- May 2024}
+      {Cloud Intern}{Surat, Gujarat}
+      \resumeItemListStart
+        \resumeItem{Deployed serverless AWS Lambda architectures on Linux systems, improving data processing efficiency by 20\%.}
+        \resumeItem{Configured Apache web servers and MySQL databases seamlessly for scalable applications, ensuring 99.9\% uptime.}
+        \resumeItem{Migrated legacy systems to AWS using Terraform successfully, reducing costs by 25\% and enhancing scalability by 30\%.}
+        \resumeItem{Automated log analysis using AWS CloudWatch, reducing troubleshooting time by 15\% and improving transparency.}
+    \resumeItemListEnd
+\vspace{-7pt}
+    \resumeSubheading
+      {Techradix Technology}{May 2022 -- May 2023}
+      {Cloud Trainee}{Surat, Gujarat}
+      \resumeItemListStart
+        \resumeItem{Learned to automate CI/CD pipelines with Jenkins and Docker, reducing deployment time by 40\% mastering DevOps.}
+        \resumeItem{Gained hands-on experience designing Linux infrastructure for AWS EC2, optimizing resource allocation.}
+        \resumeItem{Acquired proficiency resolving hardware/software issues for 50+ macOS/Windows endpoints, improving reliability.}
+        \resumeItem{Enhanced security protocols by configuring AWS IAM roles and policies, reducing unauthorized access incidents by 20\%.}
+    \resumeItemListEnd
+    \vspace{-16pt}
+    \resumeSubheading
+      {AppWorld Infotech}{Jan 2021 -- Jul 2021}
+      {Flutter App Developer }{Surat, Gujarat}
+      \resumeItemListStart
+        \resumeItem{Engineered scalable architecture with Firebase Firestore/Auth, streamlining sync \& security to boost performance 25\%.}
+        \resumeItem{Developed cross-platform apps via Flutter SDK, achieving 95\% code reuse \& 30\% engagement via adaptive UI/UX. }
+        \resumeItem{Optimized app load times by implementing caching strategies, reducing initial load latency by 35\%}
+        \resumeItem{Spearheaded 5+ Flutter/Dart apps, integrating Provider/Riverpod mgmt \& Flutter Test automation cutting cycles 20\%.}
+        
+    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+  
+\vspace{-30pt}
+%-----------PROJECTS-----------
+
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+              {\textbf{Rock, Paper, Scissors AI Game} $|$ \emph{Python, AWS, Docker}}{Feb 2025 -- Present}
+              \resumeItemListStart
+                \resumeItem{Designed AI gesture recognition using Python/OpenCV with camera input, reducing input lag 40\% via scripting.}
+                \resumeItem{Trained TensorFlow model via AWS SageMaker (92\% accuracy), deployed backend on EKS/Docker for low-latency.}
+                \resumeItem{Automated CI/CD with GitHub Actions; monitored system health via CloudWatch, ensuring 99\% uptime during usage.}
+                \resumeItemListEnd
+                 \vspace{-17pt}
+     \resumeProjectHeading
+          {\textbf{AWS Chatbot with NLP } $|$ \emph{AWS Lex, Lambda, Python }}{Dec 2023 -- Jan 2024}
+          \resumeItemListStart
+            \resumeItem{Automated 80\% of queries via AWS Lex NLP, boosting IVR 20\% \& cutting workload 15\% with routing.}
+            \resumeItem{Engineered serverless backend (Lambda/Python) \& CI/CD, improving accuracy 25\% \& satisfaction. }
+            \resumeItemListEnd 
+           \vspace{-17pt}
+           
+     \resumeProjectHeading
+          {\textbf{Dynamic Tourism Portal } $|$ \emph{PHP, MySQL, Apache, HTML/CSS}}{Jul 2022 -- Aug 2022}
+          \resumeItemListStart
+            \resumeItem{Built a responsive website with PHP backend and MySQL database; configured Apache for hosting.}
+            \resumeItem{Implemented CSS hover effects \& transitions, enhancing visual interactivity and boosting page interaction time by 15\%.}
+            \resumeItemListEnd      
+        
+      \resumeSubHeadingListEnd
+\vspace{-17pt}
+
+
+
+\section{LEADERSHIP \& AWARDS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{International Student and Scholars Center (ISSC) } $|$ \emph{Arizona State University}}{}
+        \resumeItemListStart
+        \justifying
+        \resumeItem{Coordinated 10+ campus events (festivals, workshops, orientations) for 50–200+ attendees, managing logistics, vendor relations, and engagement; collaborated with 15+ team members to troubleshoot AV/scheduling issues, executed budget tracking/post-event analysis to boost satisfaction 25\%, and hosted 5+ sessions including speaker coordination/cleanup to foster inclusivity.}
+        
+        \resumeItemListEnd
+        \vspace{-17pt}
+        \resumeProjectHeading
+          {\textbf{Google Developer Student Club (GDSC) } $|$ \emph{P P Savani University}}{}
+        \resumeItemListStart
+        \justifying
+        \resumeItem{Led 10+ AWS/GCP/Azure workshops for 100+ students, mentored 30+ peers on cloud deployments and debugging Terraform/AWS Lambda projects, designed hands-on labs for Docker/Kubernetes, hosting a cloud hackathon that enabled 15+ scalable projects, boosting student confidence by 40\%.}
+        
+        \resumeItemListEnd
+          \resumeSubHeadingListEnd
+\vspace{-15pt}
+\end{document}
